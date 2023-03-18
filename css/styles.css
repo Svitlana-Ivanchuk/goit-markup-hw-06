@@ -439,9 +439,11 @@ img {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
-.footer-social-container {
+.footer-container {
   display: flex;
-  align-items: flex-start;
+}
+.footer-social-content {
+  margin-right: 80px;
 }
 .footer-social-text {
   font-weight: 500;
@@ -479,6 +481,53 @@ img {
 }
 .footer-social-icon {
   fill: currentColor;
+}
+.footer-subscribe {
+}
+.footer-form {
+  display: flex;
+}
+.form-group {
+  margin-right: 24px;
+}
+.footer-form-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-form-label span {
+  display: block;
+  margin-bottom: 16px;
+}
+.form-input {
+  width: 164px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2e2f42;
+}
+.footer-btn {
+  text-align: center;
+  width: 169px;
+  height: 40px;
+  justify-content: center;
+  color: #ffffff;
+  background: #4d5ae5;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 8px 24px;
+  gap: 16px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
+}
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: var(--accent-color);
 }
 
 /* -------------PORTFOLIO---------------- */
