@@ -441,6 +441,7 @@ img {
 }
 .footer-container {
   display: flex;
+  align-items: start;
 }
 .footer-social-content {
   margin-right: 80px;
@@ -483,9 +484,13 @@ img {
   fill: currentColor;
 }
 .footer-subscribe {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
 }
 .footer-form {
   display: flex;
+  align-items: flex-end;
 }
 .form-group {
   margin-right: 24px;
@@ -502,7 +507,7 @@ img {
   margin-bottom: 16px;
 }
 .form-input {
-  width: 164px;
+  min-width: 264px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
