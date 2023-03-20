@@ -796,3 +796,6 @@ img {
 .modal-btn:focus {
   background-color: var(--accent-color);
 }
+.modal-form-link {
+  color: #4d5ae5;
+}
